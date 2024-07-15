@@ -1,7 +1,7 @@
 import { createReducer } from "@reduxjs/toolkit";
 export const userReducer = createReducer({users:[]},(builder)=>
 {
-    builder.addCase("add Users",(state,action)=>
+    builder.addCase("addUsers",(state,action)=>
     {
         state.users = action.payload;
     })
