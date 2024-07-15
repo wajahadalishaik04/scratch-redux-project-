@@ -3,7 +3,7 @@ import UsercardComponent from "../components/UsercardComponent";
 import axios from "axios";
 import { fetch_users } from "../api";
 import { useDispatch, useSelector } from "react-redux";
-// import { useDispatch, useSelector } from 'react-redux';
+
 const UserScreen = () => {
   const { users } = useSelector((e) => e.userReducer);
   const dispatch = useDispatch();
